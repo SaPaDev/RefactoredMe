@@ -6,6 +6,7 @@ __Allgemein__
 
 - Ein Journal schreiben über das was ich gemacht habe. Damit ich es immer wieder lesen und reflektieren kann.
 - Wenn die AUfgabe erledigt ist, genau schreiben wie ich die Aufgabe erledigt habe und wo es Schwierigkeiten gab.
+- Zeit nehmen und genau verstehen.
 
 __Morgens (15–30 min)__
 
@@ -54,3 +55,29 @@ __Wöchentlicher Rückblick__
 - Was habe ich gelernt, das ich vor 7 Tagen noch nicht konnte?
 
 - Was blockiert mich? (z. B. Prokrastination, Angst vor Fehlern, zu viele Meetings)
+
+__Pseudocode Loop__
+
+````java
+
+for week in 1..12:
+    define_weekly_focus()
+
+    for each_workday in week:
+        // Phase 1
+        define_daily_goal()
+
+        // Phase 2
+        if day == Monday:      algorithms_practice()
+        elif day == Tuesday:   javadoc_and_api_practice()
+        elif day == Wednesday: refactor_and_clean_code()
+        elif day == Thursday:  architecture_read_and_model()
+        elif day == Friday:    integration_task_and_mini_review()
+
+        // Phase 3
+        write_daily_log_entry()
+
+    run_weekly_review()
+    adjust_next_week_plan()
+
+````
